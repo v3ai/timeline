@@ -27,11 +27,12 @@ func main() {
 
 	GenghisKhan := person{firstName: "Genghis", lastName: "Khan", born: 1162, died: 1227, bc_ad: "AD"}
 
+	LeonardodaVinci := person{firstName: "Leonardo", lastName: "da Vinci", born: 1452, died: 1519, bc_ad: "AD"}
 	
 
 
 	
-	people := []person{Tutankhamun, Socrates, Alexander, Archimedes, JuliusCaesar, GenghisKhan}
+	people := []person{Tutankhamun, Socrates, Alexander, Archimedes, JuliusCaesar, GenghisKhan, LeonardodaVinci}
 	
 
 	for i := 0; i < len(people); i++ {
